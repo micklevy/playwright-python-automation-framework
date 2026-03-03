@@ -1,3 +1,4 @@
+![Playwright Tests](https://github.com/micklevy/playwright-python-automation-framework/actions/workflows/python-app.yml/badge.svg)
 # Playwright Python Automation Framework
 
 A scalable UI automation framework built with:
