@@ -28,8 +28,10 @@ jobs:
     - name: Run tests
       run: pytest
 
+
     - name: Upload HTML report
+      if: always()
       uses: actions/upload-artifact@v4
       with:
         name: pytest-html-report
-        path: report.html    
+        path: report.html
